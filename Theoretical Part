@@ -1,0 +1,25 @@
+
+git status: to show the status of the git repo ( files staged, modified, tracked)
+git init: initiate a new git repository
+git commit: save staged changes (which are staged by the git add command) to the git repo history
+git push: push locally committed changes to the remote repo
+
+2-I disagree with Ahmed. The git add command is essential because it allows me to stage specific files, rather than committing all changes at once. This gives me more control
+over what I want to commit. Using git status helps avoid mistakes, and git checkout allows me to discard changes when needed. These commands reflect the real power of Git's
+staging area and version control system.
+
+
+3-a-GitLab, Bitbucket
+
+b- GitHub support collaboration by allowing multiple developers to work on the same project using branches, pull requests, and merge features. They also provide access control
+so project admins can manage permissions. Additionally, they offer code review tools where developers can give feedback before merging code.
+
+c-  True. A team can collaborate without GitHub by setting up a self-hosted Git server (like GitLab self-hosted). However, this requires technical skills,
+more effort, and time. Using platforms like GitHub or GitLab online makes collaboration faster and easier, but self-hosting can offer better privacy and control.
+
+d-it's useful in subsequent usage if you want to push in the same branch many times without specifying the branch every single time, use git push -u origin main, 
+-u  This means that in the future, you can just use git push or git pull without specifying the branch or remote again.
+So it reduces typing commands the next time.
+
+
+
